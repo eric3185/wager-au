@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Members · Wager AU</title>
+<meta name="description" content="Join the Wager AU list for full NFL and NBA cards.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <a class="mark" href="index.html">WAGER<span>AU</span></a>
+    <nav aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="tips.html">Tips</a>
+      <a href="results.html">Results</a>
+      <a href="method.html">Method</a>
+      <a href="members.html" aria-current="page">Members</a>
+      <a href="about.html">About</a>
+      <a href="https://www.tiktok.com/@pk_p1cks" target="_blank" rel="noopener">@pk_p1cks</a>
+    </nav>
+  </div>
+</header>
+<main>
+
+<div class="wrap page-head"><p class="eyebrow">Free and members</p><h1>Get the tips</h1>
+<p>Free tips are on this site and on TikTok. A members tier with the full card is coming; pricing isn't set yet.</p></div>
+<section style="border-top:0;padding-top:8px"><div class="wrap">
+<div class="plans">
+  <div class="plan"><h3>Free</h3><p class="tag">This site and TikTok</p>
+    <ul><li>Current tips on the Tips page</li><li>Every result on the Results page</li><li>Analysis videos on @pk_p1cks</li></ul>
+    <a class="btn ghost" href="https://www.tiktok.com/@pk_p1cks" target="_blank" rel="noopener">Follow on TikTok</a></div>
+  <div class="plan feat"><h3>Members</h3><p class="tag">Coming soon · pricing to be announced</p>
+    <ul><li>The full card for every NFL and NBA day</li><li>Units and the research behind each bet</li><li>Alerts when lines move</li></ul>
+    <form id="join" novalidate>
+      <label class="eyebrow" for="email" style="flex-basis:100%">Email</label>
+      <input id="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+      <button class="btn primary" type="submit">Join the list</button>
+    </form>
+    <p class="msg" id="msg" aria-live="polite"></p></div>
+</div>
+<p class="note">18+ only. Wager AU sells tips and analysis, not bets.</p>
+</div></section>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="grid">
+      <div>
+        <div class="age">18+</div>
+        <p><b>Gamble responsibly.</b> Tips are opinion for entertainment, not financial advice. Only bet what you can afford to lose.</p>
+        <p>Gambling Help Online: <span class="num">1800 858 858</span> · <a href="https://www.gamblinghelponline.org.au" target="_blank" rel="noopener">gamblinghelponline.org.au</a></p>
+        <p>Self-exclude from all licensed bookmakers: <a href="https://www.betstop.gov.au" target="_blank" rel="noopener">BetStop</a></p>
+      </div>
+      <div>
+        <h4>Wager AU</h4>
+        <ul><li><a href="tips.html">Tips</a></li><li><a href="results.html">Results</a></li><li><a href="method.html">Method</a></li><li><a href="members.html">Members</a></li><li><a href="about.html">About</a></li></ul>
+      </div>
+      <div>
+        <h4>Info</h4>
+        <ul><li><a href="responsible-gambling.html">Responsible gambling</a></li><li><a href="terms.html">Terms of use</a></li><li><a href="privacy.html">Privacy policy</a></li></ul>
+      </div>
+    </div>
+    <p class="fine">Past results don't guarantee future results. Wager AU gives tips and analysis only. It doesn't take bets and isn't a bookmaker. © 2026 Wager AU.</p>
+  </div>
+</footer>
+<script>
+var f=document.getElementById('join');
+if(f){f.addEventListener('submit',function(e){
+  e.preventDefault();
+  var el=document.getElementById('email'), msg=document.getElementById('msg');
+  if(!el.value||!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(el.value)){msg.textContent='Enter an email address like name@example.com.';el.focus();return;}
+  msg.textContent='Sign-ups open soon. Follow @pk_p1cks on TikTok in the meantime.';
+});}
+</script>
+</body>
+</html>
