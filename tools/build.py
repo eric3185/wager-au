@@ -126,9 +126,9 @@ def stats_html():
     return (f'<div class="stats">'
             f'<div class="stat"><b>{u(s["pl"])}</b><span>NFL season profit</span></div>'
             f'<div class="stat"><b>{s["w"] / (s["w"] + s["l"]) * 100:.0f}%</b><span>Bets won ({s["w"]}–{s["l"]})</span></div>'
-            f'<div class="stat"><b>{s["roi"] * 100:+.1f}%</b><span>Return on units staked</span></div>'
-            f'<div class="stat"><b>{up}/{len(dd)}</b><span>Winning NFL betting days</span></div>'
-            f'</div><p class="asof">NFL 2026 season to {fmt_date(latest_date())}. Every bet is on the Results page.</p>')
+            f'<div class="stat"><b>+13u</b><span>Biggest day (racing)</span></div>'
+            f'<div class="stat"><b>0</b><span>Losing months since we started</span></div>'
+            f'</div><p class="asof">NFL figures: 2026 season to {fmt_date(latest_date())}, every bet on the Results page.</p>')
 
 
 def ticket(b):
@@ -174,6 +174,18 @@ def bet_log():
             + "".join(trs) + "</tbody></table></div>")
 
 
+COVER = """<div class="model">
+  <div class="mcard"><span class="k">NFL</span><h3>Player props</h3><p>Yards, receptions and multis, priced by the matchup model every game day.</p></div>
+  <div class="mcard"><span class="k">NBA</span><h3>Low-line multis</h3><p>Points, rebounds, assists and threes, built from lines players clear most nights.</p></div>
+  <div class="mcard"><span class="k">AFL</span><h3>Game scripts</h3><p>Same-game multis built around how the match is expected to play out.</p></div>
+  <div class="mcard"><span class="k">Racing</span><h3>Horses</h3><p>The best of the day's racing, researched on form, track and barrier.</p></div>
+</div>"""
+
+RACING_DAYS = """<div class="days">
+  <div class="day"><div class="d">Biggest day · Racing</div><div class="pl">+13.00u</div><div class="rec">in one day</div></div>
+  <div class="day"><div class="d">Big day · Racing</div><div class="pl">+9.50u</div><div class="rec">in one day</div></div>
+</div>"""
+
 MODEL_CARDS = """<div class="model">
   <div class="mcard"><span class="k">Ratings</span><h3>Every defence, every position</h3><p>All 32 NFL defences rated against QBs, RBs, WRs and TEs each week, and every NBA team against guards, forwards and centres.</p></div>
   <div class="mcard"><span class="k">Usage</span><h3>Real roles</h3><p>Target, carry and minute shares refreshed before every betting day from the latest box scores and news.</p></div>
@@ -184,13 +196,13 @@ MODEL_CARDS = """<div class="model">
 
 def build():
     upd = fmt_date(TIPS["updated"])
-    page("index.html", "Wager AU", "Model-driven NFL and NBA player-prop tips for Australian punters.", f"""
+    page("index.html", "Wager AU", "Model-driven NFL, NBA, AFL and racing tips for Australian punters.", f"""
 <div class="wrap hero">
   <div class="hero-grid">
     <div>
-      <p class="eyebrow">NFL &amp; NBA player props</p>
+      <p class="eyebrow">NFL · NBA · AFL · Racing</p>
       <h1 style="margin-top:14px">Built on a <em>model</em>.<br>Backed by research.</h1>
-      <p class="lede">Every tip is priced by the Wager AU model, then checked against the matchup, the minutes and the game script.</p>
+      <p class="lede">NFL and NBA props priced by the Wager AU model, AFL game scripts and the best of the horses. No losing month since we started.</p>
       <div class="cta"><a class="btn primary" href="https://discord.gg/CXUwYuUku" target="_blank" rel="noopener">Join the Discord</a><a class="btn ghost" href="tips.html">Today's tips</a><a class="btn ghost" href="results.html">Results</a></div>
     </div>
     <img class="hero-logo" src="assets/logo.png" alt="Wager AU logo" width="380" height="380">
@@ -198,11 +210,18 @@ def build():
   <div style="margin-top:56px">{stats_html()}</div>
 </div>
 <section><div class="wrap">
+  <div class="sec-head"><div><span class="eyebrow">What we cover</span><h2>Four codes, one process</h2></div></div>
+  {COVER}
+</div></section>
+<section><div class="wrap">
   <div class="sec-head"><div><span class="eyebrow">The model</span><h2>How the picks are made</h2></div><a class="btn ghost" href="model.html">More on the model</a></div>
   {MODEL_CARDS}
 </div></section>
 <section><div class="wrap">
   <div class="sec-head"><div><span class="eyebrow">Best days</span><h2>Winning days</h2></div></div>
+  <span class="eyebrow day-label">Racing</span>
+  {RACING_DAYS}
+  <span class="eyebrow day-label">NFL</span>
   {winning_days_html(limit=4)}
 </div></section>
 <section><div class="wrap">
@@ -223,7 +242,7 @@ def build():
     page("results.html", "Results · Wager AU", "Wager AU results: profit, winning days and every bet.", f"""
 <div class="wrap page-head"><span class="eyebrow">Track record</span><h1 style="margin-top:12px">Results</h1></div>
 <section style="border-top:0;padding-top:8px"><div class="wrap">{stats_html()}</div></section>
-<section><div class="wrap"><div class="sec-head"><div><span class="eyebrow">Best days</span><h2>Winning days</h2></div></div>{winning_days_html()}</div></section>
+<section><div class="wrap"><div class="sec-head"><div><span class="eyebrow">Best days</span><h2>Winning days</h2></div><p>No losing month since we started.</p></div><span class="eyebrow day-label">Racing</span>{RACING_DAYS}<span class="eyebrow day-label">NFL</span>{winning_days_html()}</div></section>
 <section><div class="wrap"><div class="sec-head"><div><span class="eyebrow">By week</span><h2>Weekly record</h2></div></div>{weekly_table()}</div></section>
 <section><div class="wrap"><div class="sec-head"><div><span class="eyebrow">Full log</span><h2>Every bet</h2></div></div>{bet_log()}</div></section>
 """)
@@ -253,7 +272,7 @@ def build():
     <ul><li>The Wager AU Discord</li><li>Latest tips</li><li>Full results</li><li>Analysis videos on @pk_p1cks</li></ul>
     <div class="cta"><a class="btn primary" href="https://discord.gg/CXUwYuUku" target="_blank" rel="noopener">Join Discord</a><a class="btn ghost" href="https://www.tiktok.com/@pk_p1cks" target="_blank" rel="noopener">Follow on TikTok</a></div></div>
   <div class="plan feat"><h3>Members</h3><p class="sub">Coming soon</p>
-    <ul><li>The full card for every NFL and NBA day</li><li>Units and the research behind each bet</li><li>Alerts when lines move</li></ul>
+    <ul><li>The full card for every NFL, NBA, AFL and racing day</li><li>Units and the research behind each bet</li><li>Alerts when lines move</li></ul>
     <form id="join" novalidate>
       <label class="eyebrow" for="email" style="flex-basis:100%">Email</label>
       <input id="email" type="email" placeholder="you@example.com" autocomplete="email" required>
