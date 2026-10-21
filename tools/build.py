@@ -33,6 +33,7 @@ HEAD = """<!doctype html>
     <a class="brand" href="index.html"><img src="assets/mark.png" alt="" width="36" height="36">WAGER AU</a>
     <nav aria-label="Main">
 {nav}
+      <a class="btn primary nav-cta" href="https://discord.gg/CXUwYuUku" target="_blank" rel="noopener">Join Discord</a>
     </nav>
   </div>
 </header>
@@ -45,7 +46,7 @@ FOOT = """</main>
     <div class="grid">
       <div><img src="assets/logo.png" alt="Wager AU" width="110" height="110"></div>
       <div><h4>Site</h4><ul>{links}</ul></div>
-      <div><h4>Follow</h4><ul><li><a href="https://www.tiktok.com/@pk_p1cks" target="_blank" rel="noopener">TikTok @pk_p1cks</a></li>
+      <div><h4>Follow</h4><ul><li><a href="https://discord.gg/CXUwYuUku" target="_blank" rel="noopener">Discord</a></li><li><a href="https://www.tiktok.com/@pk_p1cks" target="_blank" rel="noopener">TikTok @pk_p1cks</a></li>
         <li><a href="responsible-gambling.html">Responsible gambling</a></li><li><a href="terms.html">Terms</a></li><li><a href="privacy.html">Privacy</a></li></ul></div>
     </div>
     <p class="rg">18+ · Gamble responsibly · Gambling Help Online 1800 858 858 · © 2026 Wager AU</p>
@@ -190,7 +191,7 @@ def build():
       <p class="eyebrow">NFL &amp; NBA player props</p>
       <h1 style="margin-top:14px">Built on a <em>model</em>.<br>Backed by research.</h1>
       <p class="lede">Every tip is priced by the Wager AU model, then checked against the matchup, the minutes and the game script.</p>
-      <div class="cta"><a class="btn primary" href="tips.html">Today's tips</a><a class="btn ghost" href="results.html">Results</a></div>
+      <div class="cta"><a class="btn primary" href="https://discord.gg/CXUwYuUku" target="_blank" rel="noopener">Join the Discord</a><a class="btn ghost" href="tips.html">Today's tips</a><a class="btn ghost" href="results.html">Results</a></div>
     </div>
     <img class="hero-logo" src="assets/logo.png" alt="Wager AU logo" width="380" height="380">
   </div>
@@ -207,6 +208,7 @@ def build():
 <section><div class="wrap">
   <div class="sec-head"><div><span class="eyebrow">Updated {upd}</span><h2>Latest tips</h2></div><a class="btn ghost" href="tips.html">All tips</a></div>
   {tips_html(1)}
+  <div class="discord-band"><div><h3>Get every tip first in the Discord</h3><p class="muted">Cards, line moves and results, posted as they happen.</p></div><a class="btn primary" href="https://discord.gg/CXUwYuUku" target="_blank" rel="noopener">Join Discord</a></div>
 </div></section>
 """)
 
@@ -214,7 +216,8 @@ def build():
 <div class="wrap page-head"><span class="eyebrow">Updated {upd}</span><h1 style="margin-top:12px">Tips</h1>
 <p>The price, the stake and the reason behind every leg.</p></div>
 <section style="border-top:0;padding-top:8px"><div class="wrap">{tips_html()}
-<p class="note">Times are Melbourne time. Check the price with your bookmaker before placing.</p></div></section>
+<p class="note">Times are Melbourne time. Check the price with your bookmaker before placing.</p>
+<div class="discord-band"><div><h3>Get every tip first in the Discord</h3><p class="muted">Cards, line moves and results, posted as they happen.</p></div><a class="btn primary" href="https://discord.gg/CXUwYuUku" target="_blank" rel="noopener">Join Discord</a></div></div></section>
 """)
 
     page("results.html", "Results · Wager AU", "Wager AU results: profit, winning days and every bet.", f"""
@@ -247,8 +250,8 @@ def build():
 <section style="border-top:0;padding-top:8px"><div class="wrap">
 <div class="plans">
   <div class="plan"><h3>Free</h3><p class="sub">This site and TikTok</p>
-    <ul><li>Latest tips</li><li>Full results</li><li>Analysis videos on @pk_p1cks</li></ul>
-    <a class="btn ghost" href="https://www.tiktok.com/@pk_p1cks" target="_blank" rel="noopener">Follow on TikTok</a></div>
+    <ul><li>The Wager AU Discord</li><li>Latest tips</li><li>Full results</li><li>Analysis videos on @pk_p1cks</li></ul>
+    <div class="cta"><a class="btn primary" href="https://discord.gg/CXUwYuUku" target="_blank" rel="noopener">Join Discord</a><a class="btn ghost" href="https://www.tiktok.com/@pk_p1cks" target="_blank" rel="noopener">Follow on TikTok</a></div></div>
   <div class="plan feat"><h3>Members</h3><p class="sub">Coming soon</p>
     <ul><li>The full card for every NFL and NBA day</li><li>Units and the research behind each bet</li><li>Alerts when lines move</li></ul>
     <form id="join" novalidate>

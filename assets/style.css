@@ -141,3 +141,9 @@ footer a:hover{color:var(--green)}
 }
 @media (max-width:460px){nav{gap:14px}.model{grid-template-columns:1fr}}
 @media (prefers-reduced-motion:no-preference){.btn{transition:filter .15s,transform .15s}.btn:hover{filter:brightness(1.08);transform:translateY(-1px)}}
+
+/* discord */
+.nav-cta{padding:8px 14px;font-size:.85rem;color:var(--green-ink)!important}
+.discord-band{margin-top:32px;display:flex;flex-wrap:wrap;gap:18px;align-items:center;justify-content:space-between;padding:24px;border:2px solid var(--green);background:var(--panel)}
+.discord-band h3{font-size:1.3rem;margin-bottom:4px}
+.discord-band p{margin:0}
