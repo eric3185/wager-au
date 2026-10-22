@@ -559,6 +559,19 @@
   "pl": 0
  },
  {
+  "sport": "NFL",
+  "week": 7,
+  "date": "2026-10-23",
+  "game": "NE @ CHI",
+  "type": "Single",
+  "players": "Drake Maye",
+  "bet": "Under 29.5 Rushing Yards",
+  "odds": 1.88,
+  "units": 0.75,
+  "result": "PENDING",
+  "pl": 0
+ },
+ {
   "sport": "NBA",
   "week": 1,
   "date": "2026-10-21",
@@ -648,5 +661,31 @@
   "units": 1.25,
   "result": "LOSS",
   "pl": -1.25
+ },
+ {
+  "sport": "NBA",
+  "week": 1,
+  "date": "2026-10-23",
+  "game": "CLE @ PHI",
+  "type": "Multi",
+  "players": "Tyrese Maxey / James Harden",
+  "bet": "2-leg SGM: Maxey 20+ pts + Harden 15+ pts",
+  "odds": 1.94,
+  "units": 1.5,
+  "result": "PENDING",
+  "pl": 0
+ },
+ {
+  "sport": "NBA",
+  "week": 1,
+  "date": "2026-10-23",
+  "game": "DEN @ OKC / CLE @ PHI",
+  "type": "Multi",
+  "players": "Shai Gilgeous-Alexander / Jaylen Brown",
+  "bet": "2-leg multi: Gilgeous-Alexander 30+ pts+ast + Brown 20+ pts",
+  "odds": 2.1,
+  "units": 1,
+  "result": "PENDING",
+  "pl": 0
  }
 ]

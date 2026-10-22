@@ -135,7 +135,7 @@ def ticket(b):
     legs = "".join(f'<li><span class="leg-name">{html.escape(g["name"])}</span><span class="leg-game">{html.escape(g["game"])}</span>'
                    f'<span class="leg-stat">{g["why"]}</span></li>' for g in b["legs"])
     return (f'<article class="ticket"><div class="t-top"><h3>{html.escape(b["title"])}</h3><span class="price">{b["price"]:.2f}</span></div>'
-            f'<ul class="legs">{legs}</ul><div class="t-foot"><span>{html.escape(b["type"])}</span><span>{b["units"]:g} units</span></div></article>')
+            f'<ul class="legs">{legs}</ul><div class="t-foot"><span>{html.escape(b["type"])}</span><span>{b["units"]:g}u{(" · " + html.escape(b["book"])) if b.get("book") else ""}</span></div></article>')
 
 
 def tips_html(limit_days=None):
