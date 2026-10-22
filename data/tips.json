@@ -42,6 +42,30 @@
             }
           ],
           "book": "bet365"
+        },
+        {
+          "title": "Threes + boards",
+          "type": "3-leg SGM",
+          "price": 1.96,
+          "units": 1,
+          "book": "",
+          "legs": [
+            {
+              "name": "Tyrese Maxey 2+ threes",
+              "game": "PHI v CLE \u00b7 10:10 AM",
+              "why": "Cleared in <b>81%</b> \u00b7 2, 2, 2 vs CLE last season"
+            },
+            {
+              "name": "Jaylen Brown 1+ three",
+              "game": "PHI v CLE \u00b7 10:10 AM",
+              "why": "Cleared in <b>88%</b> \u00b7 hit one in all 7 games vs CLE"
+            },
+            {
+              "name": "Evan Mobley 6+ rebounds",
+              "game": "CLE @ PHI \u00b7 10:10 AM",
+              "why": "Cleared in <b>83%</b> of starts last season"
+            }
+          ]
         }
       ]
     },
