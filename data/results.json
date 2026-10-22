@@ -609,5 +609,44 @@
   "units": 1.5,
   "result": "LOSS",
   "pl": -1.5
+ },
+ {
+  "sport": "NBA",
+  "week": 1,
+  "date": "2026-10-22",
+  "game": "CHI @ TOR / CHA @ BKN",
+  "type": "Multi",
+  "players": "Kawhi Leonard / Michael Porter Jr.",
+  "bet": "2-leg multi: Leonard 20+ pts + Porter Jr. 20+ pts",
+  "odds": 1.96,
+  "units": 1.5,
+  "result": "WIN",
+  "pl": 1.44
+ },
+ {
+  "sport": "NBA",
+  "week": 1,
+  "date": "2026-10-22",
+  "game": "DAL @ HOU / PHX @ POR",
+  "type": "Multi",
+  "players": "Kevin Durant / Devin Booker",
+  "bet": "2-leg multi: Durant 20+ pts + Booker 20+ pts",
+  "odds": 1.72,
+  "units": 1.25,
+  "result": "WIN",
+  "pl": 0.9
+ },
+ {
+  "sport": "NBA",
+  "week": 1,
+  "date": "2026-10-22",
+  "game": "GSW @ LAL / DAL @ HOU",
+  "type": "Multi",
+  "players": "Luka Doncic / Jabari Smith Jr.",
+  "bet": "2-leg multi: Doncic 30+ pts + Smith Jr. 15+ PRA",
+  "odds": 1.87,
+  "units": 1.25,
+  "result": "LOSS",
+  "pl": -1.25
  }
 ]

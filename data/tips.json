@@ -1,28 +1,28 @@
 {
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "days": [
-    {
-      "label": "Thu 22 Oct",
-      "sport": "NBA",
-      "bets": [
-        {"title": "Kawhi + MPJ", "type": "2-leg multi", "price": 1.96, "units": 1.5, "legs": [
-          {"name": "Kawhi Leonard 20+ pts", "game": "TOR v CHI · 10:40 AM", "why": "Cleared in <b>93%</b> of starts · CHI 22nd in defence, 3rd-fastest pace"},
-          {"name": "Michael Porter Jr 20+ pts", "game": "BKN v CHA · 10:30 AM", "why": "Cleared in <b>82%</b> · 27 pts on 17 shots in his last preseason game"}]},
-        {"title": "Durant + Booker", "type": "2-leg multi", "price": 1.72, "units": 1.25, "legs": [
-          {"name": "Kevin Durant 20+ pts", "game": "HOU v DAL · 11:40 AM", "why": "Cleared in <b>82%</b> · DAL without Lively and Aldama"},
-          {"name": "Devin Booker 20+ pts", "game": "PHX @ POR · 1:10 PM", "why": "Cleared in <b>85%</b> · <b>86%</b> for scorers like him vs POR"}]},
-        {"title": "Luka + Jabari", "type": "2-leg multi", "price": 1.87, "units": 1.25, "legs": [
-          {"name": "Luka Doncic 30+ pts", "game": "LAL v GSW · 1:00 PM", "why": "Cleared in <b>78%</b> · more of the ball with LeBron gone"},
-          {"name": "Jabari Smith Jr 15+ PRA", "game": "HOU v DAL · 11:40 AM", "why": "Cleared in <b>97%</b> of starts"}]}
-      ]
-    },
     {
       "label": "Fri 23 Oct",
       "sport": "NFL",
       "bets": [
-        {"title": "Brown + Odunze", "type": "2-leg SGM", "price": 1.80, "units": 1.5, "legs": [
-          {"name": "A.J. Brown 50+ rec yds", "game": "NE @ CHI · 11:15 AM", "why": "Main line 70.5 · returning from a high ankle sprain, status on the Thursday report"},
-          {"name": "Rome Odunze 25+ rec yds", "game": "NE @ CHI · 11:15 AM", "why": "Main line 45.5 · a low alt for the Bears' top target"}]}
+        {
+          "title": "Brown + Odunze",
+          "type": "2-leg SGM",
+          "price": 1.8,
+          "units": 1.5,
+          "legs": [
+            {
+              "name": "A.J. Brown 50+ rec yds",
+              "game": "NE @ CHI \u00b7 11:15 AM",
+              "why": "Main line 70.5 \u00b7 returning from a high ankle sprain, status on the Thursday report"
+            },
+            {
+              "name": "Rome Odunze 25+ rec yds",
+              "game": "NE @ CHI \u00b7 11:15 AM",
+              "why": "Main line 45.5 \u00b7 a low alt for the Bears' top target"
+            }
+          ]
+        }
       ]
     }
   ]
