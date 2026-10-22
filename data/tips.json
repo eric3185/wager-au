@@ -3,6 +3,48 @@
   "days": [
     {
       "label": "Fri 23 Oct",
+      "sport": "NBA",
+      "bets": [
+        {
+          "title": "Maxey + Harden",
+          "type": "2-leg SGM",
+          "price": 1.77,
+          "units": 1.5,
+          "legs": [
+            {
+              "name": "Tyrese Maxey 20+ pts",
+              "game": "PHI v CLE \u00b7 10:10 AM",
+              "why": "Cleared in <b>86%</b> \u00b7 28 pts on opening night"
+            },
+            {
+              "name": "James Harden 15+ pts",
+              "game": "CLE @ PHI \u00b7 10:10 AM",
+              "why": "Cleared in <b>91%</b> \u00b7 28 and 21 vs PHI last season"
+            }
+          ]
+        },
+        {
+          "title": "SGA + Brown",
+          "type": "2-leg multi",
+          "price": 2.09,
+          "units": 1,
+          "legs": [
+            {
+              "name": "Shai Gilgeous-Alexander 25+ pts",
+              "game": "OKC v DEN \u00b7 12:40 PM",
+              "why": "34, 36, 35 vs DEN last season"
+            },
+            {
+              "name": "Jaylen Brown 20+ pts",
+              "game": "PHI v CLE \u00b7 10:10 AM",
+              "why": "Cleared in <b>86%</b> \u00b7 30, 19, 23 vs CLE last season"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Fri 23 Oct",
       "sport": "NFL",
       "bets": [
         {
