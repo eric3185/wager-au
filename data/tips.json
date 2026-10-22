@@ -22,6 +22,19 @@
               "why": "Main line 45.5 \u00b7 NE without CB Carlton Davis"
             }
           ]
+        },
+        {
+          "title": "Maye under",
+          "type": "Single",
+          "price": 1.88,
+          "units": 0.75,
+          "legs": [
+            {
+              "name": "Drake Maye under 29.5 rush yds",
+              "game": "NE @ CHI \u00b7 11:15 AM",
+              "why": "QBs vs CHI: 10, 6, 25, 0, 6, 1 \u00b7 under in <b>6 of 6</b>"
+            }
+          ]
         }
       ]
     }
