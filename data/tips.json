@@ -66,6 +66,35 @@
               "why": "Cleared in <b>83%</b> of starts last season"
             }
           ]
+        },
+        {
+          "title": "SGA + playmakers",
+          "type": "4-leg SGM",
+          "price": 2.0,
+          "units": 1,
+          "book": "Dabble",
+          "legs": [
+            {
+              "name": "Shai Gilgeous-Alexander 25+ pts",
+              "game": "OKC v DEN \u00b7 12:40 PM",
+              "why": "34, 36, 35 vs DEN last season"
+            },
+            {
+              "name": "Shai Gilgeous-Alexander 4+ ast",
+              "game": "OKC v DEN \u00b7 12:40 PM",
+              "why": "Cleared in <b>91%</b> \u00b7 13, 9, 15 vs DEN"
+            },
+            {
+              "name": "Jamal Murray 4+ ast",
+              "game": "DEN @ OKC \u00b7 12:40 PM",
+              "why": "Cleared in <b>88%</b> \u00b7 12, 6, 6 vs OKC"
+            },
+            {
+              "name": "Nikola Jokic 6+ ast",
+              "game": "DEN @ OKC \u00b7 12:40 PM",
+              "why": "Cleared in <b>89%</b> \u00b7 8, 14, 13 vs OKC"
+            }
+          ]
         }
       ]
     },
