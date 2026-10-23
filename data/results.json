@@ -555,8 +555,8 @@
   "bet": "A.J. Brown Over 49.5 Receiving Yards + Rome Odunze Over 24.5 Receiving Yards",
   "odds": 1.8,
   "units": 1.5,
-  "result": "PENDING",
-  "pl": 0
+  "result": "LOSS",
+  "pl": -1.5
  },
  {
   "sport": "NFL",
@@ -568,8 +568,8 @@
   "bet": "Under 29.5 Rushing Yards",
   "odds": 1.88,
   "units": 0.75,
-  "result": "PENDING",
-  "pl": 0
+  "result": "WIN",
+  "pl": 0.66
  },
  {
   "sport": "NBA",
@@ -672,8 +672,8 @@
   "bet": "2-leg SGM: Maxey 20+ pts + Harden 15+ pts",
   "odds": 1.94,
   "units": 1.5,
-  "result": "PENDING",
-  "pl": 0
+  "result": "WIN",
+  "pl": 1.41
  },
  {
   "sport": "NBA",
@@ -685,7 +685,20 @@
   "bet": "2-leg multi: Gilgeous-Alexander 30+ pts+ast + Brown 20+ pts",
   "odds": 2.1,
   "units": 1,
-  "result": "PENDING",
-  "pl": 0
+  "result": "LOSS",
+  "pl": -1
+ },
+ {
+  "sport": "NBA",
+  "week": 1,
+  "date": "2026-10-23",
+  "game": "CLE @ PHI",
+  "type": "Multi",
+  "players": "Tyrese Maxey / Jaylen Brown / Evan Mobley",
+  "bet": "3-leg SGM: Maxey 2+ 3PM + Brown 1+ 3PM + Mobley 6+ reb",
+  "odds": 1.96,
+  "units": 1,
+  "result": "WIN",
+  "pl": 0.96
  }
 ]
