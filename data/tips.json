@@ -1,6 +1,116 @@
 {
-  "updated": "2026-10-22",
+  "updated": "2026-10-23",
   "days": [
+    {
+      "label": "Sat 24 Oct",
+      "sport": "NBA",
+      "bets": [
+        {
+          "title": "Zubac boards",
+          "type": "Single",
+          "price": 1.8,
+          "units": 1.5,
+          "book": "Sportsbet",
+          "legs": [
+            {
+              "name": "Ivica Zubac over 11.5 rebounds",
+              "game": "DAL @ IND \u00b7 10:10 AM",
+              "why": "DAL without Lively and Aldama \u00b7 allow the <b>3rd-most</b> rebounds to centres"
+            }
+          ]
+        },
+        {
+          "title": "Sabonis assists",
+          "type": "Single",
+          "price": 1.72,
+          "units": 1.25,
+          "book": "Sportsbet",
+          "legs": [
+            {
+              "name": "Domantas Sabonis 6+ assists",
+              "game": "POR @ SAC \u00b7 1:10 PM",
+              "why": "POR allow the <b>3rd-most</b> assists to centres \u00b7 drop coverage leaves the elbow open"
+            }
+          ]
+        },
+        {
+          "title": "Zion + Missi",
+          "type": "2-leg SGM",
+          "price": 1.74,
+          "units": 1.25,
+          "book": "Sportsbet",
+          "legs": [
+            {
+              "name": "Zion Williamson 15+ pts",
+              "game": "NOP @ UTA \u00b7 12:40 PM",
+              "why": "UTA thin on rim protection \u00b7 highest total on the slate"
+            },
+            {
+              "name": "Yves Missi 7+ rebounds",
+              "game": "NOP @ UTA \u00b7 12:40 PM",
+              "why": "Starting centre in a high-pace game"
+            }
+          ]
+        },
+        {
+          "title": "Quickley + Barnes",
+          "type": "2-leg SGM",
+          "price": 1.9,
+          "units": 1,
+          "book": "Neds",
+          "legs": [
+            {
+              "name": "Immanuel Quickley 15+ pts",
+              "game": "TOR @ WAS \u00b7 10:10 AM",
+              "why": "WAS allow the <b>5th-most</b> guard points"
+            },
+            {
+              "name": "Scottie Barnes 25+ PRA",
+              "game": "TOR @ WAS \u00b7 10:10 AM",
+              "why": "WAS <b>30th</b> in defence last season"
+            }
+          ]
+        },
+        {
+          "title": "Edwards + Herro",
+          "type": "2-leg multi",
+          "price": 2.05,
+          "units": 1,
+          "book": "bet365",
+          "legs": [
+            {
+              "name": "Anthony Edwards 25+ pts",
+              "game": "MIN @ ORL \u00b7 10:10 AM",
+              "why": "ORL without Black and Isaac"
+            },
+            {
+              "name": "Tyler Herro 20+ pts",
+              "game": "DET @ MIA \u00b7 11:10 AM",
+              "why": "Miami's main shot creator"
+            }
+          ]
+        },
+        {
+          "title": "Sengun + Luka",
+          "type": "2-leg multi",
+          "price": 1.72,
+          "units": 1,
+          "book": "Sportsbet",
+          "legs": [
+            {
+              "name": "Alperen Sengun 4+ assists",
+              "game": "HOU @ SAS \u00b7 12:40 PM",
+              "why": "HOU's offence runs through him at the elbow"
+            },
+            {
+              "name": "Luka Doncic 3+ threes",
+              "game": "LAC @ LAL \u00b7 1:10 PM",
+              "why": "High volume of threes as the primary creator"
+            }
+          ]
+        }
+      ]
+    },
     {
       "label": "Fri 23 Oct",
       "sport": "NBA",

@@ -700,5 +700,83 @@
   "units": 1,
   "result": "WIN",
   "pl": 0.96
+ },
+ {
+  "sport": "NBA",
+  "week": 1,
+  "date": "2026-10-24",
+  "game": "DAL @ IND",
+  "type": "Single",
+  "players": "Ivica Zubac",
+  "bet": "Rebounds",
+  "odds": 1.8,
+  "units": 1.5,
+  "result": "PENDING",
+  "pl": 0
+ },
+ {
+  "sport": "NBA",
+  "week": 1,
+  "date": "2026-10-24",
+  "game": "POR @ SAC",
+  "type": "Single",
+  "players": "Domantas Sabonis",
+  "bet": "Assists (6+)",
+  "odds": 1.72,
+  "units": 1.25,
+  "result": "PENDING",
+  "pl": 0
+ },
+ {
+  "sport": "NBA",
+  "week": 1,
+  "date": "2026-10-24",
+  "game": "NOP @ UTA",
+  "type": "Multi",
+  "players": "Zion Williamson / Yves Missi",
+  "bet": "2-leg SGM: Williamson 15+ pts + Missi 7+ reb",
+  "odds": 1.74,
+  "units": 1.25,
+  "result": "PENDING",
+  "pl": 0
+ },
+ {
+  "sport": "NBA",
+  "week": 1,
+  "date": "2026-10-24",
+  "game": "TOR @ WAS",
+  "type": "Multi",
+  "players": "Immanuel Quickley / Scottie Barnes",
+  "bet": "2-leg SGM: Quickley 15+ pts + Barnes 25+ PRA",
+  "odds": 1.9,
+  "units": 1,
+  "result": "PENDING",
+  "pl": 0
+ },
+ {
+  "sport": "NBA",
+  "week": 1,
+  "date": "2026-10-24",
+  "game": "MIN @ ORL / DET @ MIA",
+  "type": "Multi",
+  "players": "Anthony Edwards / Tyler Herro",
+  "bet": "2-leg multi: Edwards 25+ pts + Herro 20+ pts",
+  "odds": 2.05,
+  "units": 1,
+  "result": "PENDING",
+  "pl": 0
+ },
+ {
+  "sport": "NBA",
+  "week": 1,
+  "date": "2026-10-24",
+  "game": "HOU @ SAS / LAC @ LAL",
+  "type": "Multi",
+  "players": "Alperen Sengun / Luka Doncic",
+  "bet": "2-leg multi: Sengun 4+ ast + Doncic 3+ 3PM",
+  "odds": 1.72,
+  "units": 1,
+  "result": "PENDING",
+  "pl": 0
  }
 ]
