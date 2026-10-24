@@ -778,5 +778,18 @@
   "units": 1,
   "result": "PENDING",
   "pl": 0
+ },
+ {
+  "sport": "NBA",
+  "week": 1,
+  "date": "2026-10-25",
+  "game": "MIA @ CHA",
+  "type": "Multi",
+  "players": "Giannis Antetokounmpo",
+  "bet": "2-leg SGM: Antetokounmpo 20+ pts + 6+ ast (user pick)",
+  "odds": 1.8,
+  "units": 1.25,
+  "result": "PENDING",
+  "pl": 0
  }
 ]

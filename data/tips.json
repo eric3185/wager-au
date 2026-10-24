@@ -1,6 +1,31 @@
 {
-  "updated": "2026-10-23",
+  "updated": "2026-10-24",
   "days": [
+    {
+      "label": "Sun 25 Oct",
+      "sport": "NBA",
+      "bets": [
+        {
+          "title": "Giannis double",
+          "type": "2-leg SGM",
+          "price": 1.8,
+          "units": 1.25,
+          "book": "Sportsbet",
+          "legs": [
+            {
+              "name": "Giannis Antetokounmpo 20+ pts",
+              "game": "MIA @ CHA \u00b7 9:10 AM",
+              "why": "35 and 36 pts to start the season \u00b7 close spread, full minutes"
+            },
+            {
+              "name": "Giannis Antetokounmpo 6+ assists",
+              "game": "MIA @ CHA \u00b7 9:10 AM",
+              "why": "The main creator \u00b7 Charlotte have to load up on him"
+            }
+          ]
+        }
+      ]
+    },
     {
       "label": "Sat 24 Oct",
       "sport": "NBA",
